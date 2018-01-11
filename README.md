@@ -54,7 +54,7 @@
         host: 'localhost',
         port: 3306,
         user: 'root',
-        password: ''*****',',
+        password: '*****',
         database: 'session'
     };
 
@@ -111,7 +111,7 @@
         // 가입된 회원, 물론 데이터베이스에 암호화 해서 저장해야 한다
         var user = {
             username : 'qskeksq',
-            password : ''*****',
+            password : '*****',
             displayname : 'nadan'
         }
         var username = req.body.username;
